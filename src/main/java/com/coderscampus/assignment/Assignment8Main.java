@@ -10,8 +10,8 @@ import java.util.concurrent.Future;
 import java.util.HashMap;
 
 public class Assignment8Main {
-	
-	private static final int HashMap = 0;
+
+		private static final int HashMap = 0;
 
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
 		
@@ -27,6 +27,7 @@ public class Assignment8Main {
 			List<Integer> result = future.get();
 			fullList.addAll(result);
         }
+
 		
 		executor.shutdown();
 		
