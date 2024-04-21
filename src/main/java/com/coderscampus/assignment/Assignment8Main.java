@@ -41,6 +41,5 @@ public class Assignment8Main {
 		System.out.println(uniqueNumbers);
 	}
 
-
 }
 
