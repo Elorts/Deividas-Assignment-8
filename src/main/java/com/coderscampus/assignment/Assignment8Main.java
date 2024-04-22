@@ -28,6 +28,7 @@ public class Assignment8Main {
 			fullList.addAll(result);
         }
 
+		
 		executor.shutdown();
 		
 		for (Integer i : fullList) {
