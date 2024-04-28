@@ -37,6 +37,7 @@ public class Assignment8Main {
 				uniqueNumbers.put(i, 1);
 			}
 		}
+
 		System.out.println(uniqueNumbers);
 	}
 }
