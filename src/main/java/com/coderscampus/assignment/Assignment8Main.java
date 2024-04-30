@@ -14,6 +14,7 @@ public class Assignment8Main {
 		private static final int HashMap = 0;
 
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
+		
 		Assignment8 numbers = new Assignment8();
 		ExecutorService executor = Executors.newFixedThreadPool(10);
 		ArrayList<Integer> fullList = new ArrayList<Integer>();
