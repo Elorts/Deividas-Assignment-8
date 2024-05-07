@@ -27,6 +27,7 @@ public class Assignment8Main {
 			List<Integer> result = future.get();
 			fullList.addAll(result);
         }
+
 		executor.shutdown();
 		
 		for (Integer i : fullList) {
